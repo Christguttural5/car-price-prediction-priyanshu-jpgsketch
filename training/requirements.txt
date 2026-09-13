@@ -1,0 +1,9 @@
+mlflow==3.1.0
+mlflow_skinny==2.20.1
+pandas==2.2.3
+prefect==3.2.1
+scikit_learn==1.6.1
+structlog==25.1.0
+xgboost==2.1.4
+argument==1.4.0
+kaggle==1.5.13

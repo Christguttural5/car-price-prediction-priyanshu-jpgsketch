@@ -1,0 +1,41 @@
+# python env
+venv/
+
+# python idea
+.idea/
+.vscode/
+
+# prefect
+.prefect/
+
+# data
+data/*.csv
+training/data/*
+serving/*.csv
+
+# pycache
+__pycache__/
+
+# mlflow mlruns
+mlruns/*
+training/mlruns/*
+training/model/*
+mlflow.db
+
+# kaggle api token
+kaggle.json
+
+# model
+model/*
+
+# mongo db data
+serving/mongo_data/*
+serving/call_mongodb.py
+/training/.env
+/training/gcp.json
+/serving/gcp.json
+/serving/.env
+
+# Ensure /serving/model/ is ignored
+/serving/model/
+/serving/predictions.db

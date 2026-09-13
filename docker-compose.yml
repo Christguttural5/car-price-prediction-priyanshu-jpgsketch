@@ -1,0 +1,28 @@
+services:
+  # Prefect server API
+  server:
+    container_name: server
+    image: prefecthq/prefect:3.2-python3.9
+    restart: always
+    entrypoint: ["prefect", "server", "start"]
+    environment:
+      - PREFECT_UI_URL=http://127.0.0.0:4200/api
+      - PREFECT_API_URL=http://127.0.0.1:4200/api
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+    ports:
+      - 4200:4200
+  # Deploy agent
+  deploy:
+    container_name: deploy
+    build: ./training
+    restart: on-failure
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    depends_on:
+      worker:
+        condition: service_started
+    working_dir: "/root/training"
+    volumes:
+      - ./training:/root/training
+    networks:
+      - prefect-network
